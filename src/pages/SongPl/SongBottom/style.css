@@ -1,0 +1,66 @@
+.songbottom {
+  margin-top: 49px;
+  width: 100%;
+}
+.songbottom .header {
+  width: 100%;
+  padding-top: 10px;
+  display: flex;
+}
+.songbottom .header img {
+  width: 50px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.songbottom .header p {
+  margin-top: 5%;
+}
+.songbottom .pl {
+  width: 95%;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 2.5%;
+}
+.songbottom .pl .mv-comments-lists {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #d4d5d3;
+  border-radius: 8px;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text {
+  width: 99%;
+  border-bottom: 1px solid #d4d5d3;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-left {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-left img {
+  width: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-left .mv-content-dianzan {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 5px;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-left .mv-content-dianzan i {
+  margin-left: 3px;
+  float: right;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-bottom {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.songbottom .pl .mv-comments-lists .mv-comments-text .mv-bottom .mv-bottom-text {
+  margin-left: 45px;
+}

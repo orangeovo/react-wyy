@@ -1,0 +1,7 @@
+.swiper {
+  position: relative;
+  margin-top: 49px;
+}
+.swiper-view img {
+  width: 100%;
+}

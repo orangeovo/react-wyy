@@ -1,0 +1,55 @@
+.mv-comments {
+  width: 90%;
+  margin-left: 5%;
+  float: left;
+}
+.mv-comments h2 {
+  font-size: 15px;
+}
+.mv-comments .diankuai {
+  width: 50px;
+  height: 10px;
+}
+.mv-comments .mv-comments-lists {
+  width: 100%;
+  margin-top: 10px;
+  border: 1px solid #d4d5d3;
+  border-radius: 8px;
+}
+.mv-comments .mv-comments-lists .mv-comments-text {
+  width: 99%;
+  border-bottom: 1px solid #d4d5d3;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-left {
+  width: 95%;
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  display: flex;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-left img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-left .mv-content-dianzan {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 5px;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-left .mv-content-dianzan i {
+  margin-left: 3px;
+  float: right;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-bottom {
+  width: 95%;
+  margin: 0 auto;
+  padding-bottom: 3px;
+  margin-top: 2px;
+  margin-bottom: 10px;
+}
+.mv-comments .mv-comments-lists .mv-comments-text .mv-bottom .mv-bottom-text {
+  margin-left: 45px;
+}

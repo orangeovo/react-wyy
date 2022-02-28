@@ -1,0 +1,23 @@
+.search-result {
+  width: 90%;
+  float: left;
+  margin-left: 5%;
+  margin-top: 10px;
+  padding-bottom: 100px;
+}
+.search-result .result-lists .play {
+  margin-top: 6px;
+  float: right;
+}
+.search-result .result-lists .play span {
+  padding: 6px;
+  border-radius: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border: 1px solid #918e8e;
+}
+.search-result .result-lists .results-box {
+  width: 100%;
+  margin-top: 10px;
+  border-bottom: 1px solid #b1acac;
+}

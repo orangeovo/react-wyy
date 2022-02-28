@@ -1,0 +1,171 @@
+.mine-message {
+  margin: 0 auto;
+  margin-top: 49px;
+  width: 100%;
+}
+.mine-message .bkimg-box {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+.mine-message .bkimg-box .bkimg {
+  width: 100%;
+  float: left;
+}
+.mine-message .message {
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+.mine-message .message .header {
+  width: 100%;
+  height: 20%;
+  display: flex;
+}
+.mine-message .message .header .user {
+  margin-left: 7%;
+}
+.mine-message .message .header .user img {
+  width: 70px;
+  margin-top: 10px;
+  border-radius: 50%;
+  border: 1px solid skyblue;
+}
+.mine-message .message .header .xinxi-box {
+  width: 70%;
+  margin-top: 10px;
+}
+.mine-message .message .header .xinxi-box .xinxi {
+  width: 80%;
+  height: 50%;
+  margin: 0 auto;
+  display: flex;
+}
+.mine-message .message .header .xinxi-box .xinxi .first-box {
+  width: 33%;
+  height: 100%;
+  margin-left: 1px;
+  text-align: center;
+}
+.mine-message .message .header .xinxi-box .change-message {
+  width: 100%;
+  height: 50%;
+}
+.mine-message .message .header .xinxi-box .change-message div {
+  width: 80%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0 auto;
+  border: 1px solid #cccccc;
+  border-radius: 20px;
+  text-align: center;
+  margin-top: 1.5%;
+}
+.mine-message .message .mid {
+  width: 90%;
+  height: 40%;
+  margin: 0 auto;
+  margin-top: 6%;
+  border-radius: 15px;
+  border: 1px solid #cecece;
+}
+.mine-message .message .mid h1 {
+  font-size: 16px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.mine-message .message .mid .text {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.mine-message .message .mid .all {
+  width: 90%;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 15px;
+  border: 1px solid #cecece;
+}
+.mine-message .message .bottom {
+  width: 90%;
+  margin: 0 auto;
+}
+.mine-message .message .bottom .created-gedan {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 16px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  margin-top: 19px;
+}
+.mine-message .message .bottom .created-gedan .top {
+  display: flex;
+}
+.mine-message .message .bottom .created-gedan .top .count {
+  width: 88%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mine-message .message .bottom .created-gedan .top i {
+  margin-right: 5px;
+  margin-top: 10px;
+  color: grey;
+}
+.mine-message .message .bottom .created-gedan .top .jia {
+  font-size: 25px;
+  line-height: 13px;
+  color: grey;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.mine-message .message .bottom .created-gedan .bottom .chuangjian-gedan img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mine-message .message .bottom .created-gedan .bottom .chuangjian-gedan .zuoy {
+  display: flex;
+}
+.mine-message .message .bottom .created-gedan .bottom .chuangjian-gedan .zuoy div {
+  margin-left: 7px;
+  margin-top: 11px;
+}
+.mine-message .message .bottom .Collection-gedan {
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-radius: 16px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  margin-top: 19px;
+}
+.mine-message .message .bottom .Collection-gedan .top {
+  display: flex;
+}
+.mine-message .message .bottom .Collection-gedan .top .count {
+  margin-left: 10px;
+}
+.mine-message .message .bottom .Collection-gedan .top i {
+  position: absolute;
+  right: 25px;
+  color: grey;
+}
+.mine-message .message .bottom .Collection-gedan .bottom .chuangjian-gedan img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.mine-message .message .bottom .Collection-gedan .bottom .chuangjian-gedan .zuoy {
+  display: flex;
+}
+.mine-message .message .bottom .Collection-gedan .bottom .chuangjian-gedan .zuoy div {
+  margin-left: 7px;
+  margin-top: 11px;
+}
+.mine-message .diankuai {
+  width: 100%;
+  height: 70px;
+}

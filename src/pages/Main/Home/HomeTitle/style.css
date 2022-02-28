@@ -1,0 +1,76 @@
+.home-title {
+  position: relative;
+  top: 70px;
+  width: 90%;
+  margin-left: 5%;
+  padding-bottom: 100px;
+}
+.home-title .top-header {
+  display: flex;
+}
+.home-title .top-header .left img {
+  width: 63px;
+  height: 63px;
+  border-radius: 50%;
+  border: 1px solid #faebd7;
+  margin-left: 10px;
+}
+.home-title .top-header .right {
+  flex: 1;
+  margin-left: 16px;
+}
+.home-title .top-header .right p {
+  font-size: 17px;
+}
+.home-title .top-header .right div {
+  margin-top: 5px;
+  height: 1px;
+  width: 45px;
+  border-radius: 18px;
+  background-color: black;
+  text-align: center;
+  color: gold;
+  line-height: 0px;
+  font-size: 13px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.home-title .top-header .go-login i {
+  position: relative;
+  top: 30%;
+  font-size: 20px;
+  color: gray;
+  right: 2px;
+}
+.home-title .top-bottom {
+  width: 100%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  height: 140px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  border-radius: 20px;
+}
+.home-title .top-bottom ul {
+  width: 100%;
+  height: 100%;
+}
+.home-title .top-bottom ul li {
+  float: left;
+  width: 20%;
+  height: 40%;
+  margin-left: 4%;
+  margin-top: 3.5%;
+  display: flex;
+}
+.home-title .top-bottom ul li div {
+  width: 100%;
+  text-align: center;
+}
+.home-title .top-bottom ul li div i {
+  font-size: 30px;
+  color: red;
+}

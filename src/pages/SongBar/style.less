@@ -1,0 +1,248 @@
+@import "~antd/dist/antd.css";
+
+.song-bar {
+  width: 80%;
+  height: 4%;
+  background-color: #aec9efdb;
+  position: fixed;
+  z-index: 5;
+  bottom: 70px;
+  margin-left: 10%;
+  border-radius: 20px;
+  display: flex;
+  .cd-box {
+    margin-left: 10%;
+    margin-top: -1.5%;
+    // border: 3px solid black;
+    border-radius: 50%;
+    img {
+      width: 32px;
+      height: 32px;
+      animation: cd-box 10s linear infinite;
+      border-radius: 50%;
+      border: 3px solid black;
+      box-shadow: 0 0 4px #4a4a4a;
+      opacity: 0.8;
+    }
+  }
+  @keyframes cd-box {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform: rotate(90deg);
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+    }
+    75% {
+      -webkit-transform: rotate(270deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  .song-name {
+    margin-left: 3%;
+    line-height: 30px;
+    width: 55%;
+  }
+  .bofang {
+    margin-left: 3%;
+    line-height: 30px;
+    i {
+      color: black;
+      font-weight: bold;
+    }
+  }
+  .song-more {
+    margin-left: 3%;
+    line-height: 30px;
+  }
+}
+
+.song-detail-box {
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  width: 100%;
+  z-index: 8;
+  .mask-box {
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+  .songs-box {
+    height: 50%;
+    width: 90%;
+    position: absolute;
+    bottom: 10px;
+    left: 5%;
+    background-color: white;
+    border-radius: 20px;
+    overflow: scroll;
+    h1 {
+      text-indent: 15px;
+      margin-top: 9px;
+      font-size: 16px;
+    }
+    h2 {
+      position: absolute;
+      right: 20px;
+      top: 9px;
+    }
+    .songs-details {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 6px;
+      margin-bottom: 5px;
+      display: flex;
+      color: grey;
+      span {
+        color: black;
+      }
+      p {
+        position: absolute;
+        right: 20px;
+        font-size: 15px;
+        line-height: 15px;
+        color: grey;
+      }
+    }
+  }
+}
+.danqu-detail {
+  position: fixed !important;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: linear-gradient(#dae9f8, #c2d5ea, #dae9f8);
+  z-index: 7;
+  position: absolute;
+  .kfz {
+    width: 60px;
+    height: 20px;
+    background-color: black;
+    opacity: 0.7;
+    position: fixed;
+    top: 53%;
+    color: white;
+    left: 40%;
+    text-align: center;
+    border-radius: 10px;
+    line-height: 20px;
+  }
+  .header {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    .icon-xiajiantou {
+      font-weight: bold;
+      margin-left: 15px;
+      font-size: 12px;
+    }
+    .icon-fenxiang {
+      float: right;
+      line-height: 30px;
+      margin-right: 15px;
+    }
+  }
+  .title {
+    text-align: center;
+    color: #8d8d8d;
+    margin-top: 10px;
+    h2 {
+      font-size: 16px;
+    }
+    p {
+      font-size: 13px;
+    }
+  }
+  .img-box {
+    width: 80%;
+    height: 40%;
+    margin: 0 auto;
+    margin-top: 20%;
+    text-align: center;
+    img {
+      width: 70%;
+      margin-top: 15%;
+      border-radius: 50%;
+      animation: cd-box 10s linear infinite;
+    }
+  }
+  @keyframes img-box {
+    0% {
+      -webkit-transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform: rotate(90deg);
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+    }
+    75% {
+      -webkit-transform: rotate(270deg);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+  .geci {
+    width: 60%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    color: #8d8d8d;
+    font-size: 14px;
+    height: 100px;
+    overflow: scroll;
+  }
+  .geci::-webkit-scrollbar {
+    /*隐藏滚轮*/
+    display: none;
+  }
+  .gongn-yi {
+    width: 70%;
+    // padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 10%;
+    display: flex;
+    i {
+      width: 25%;
+      text-align: center;
+    }
+  }
+  .jindutiao {
+    width: 90%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+    .ant-slider {
+      width: 90%;
+      margin: 0 auto;
+      margin-top: 1.35%;
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+  .gongn-er {
+    width: 80%;
+    // padding-top: 25px;
+    // padding-bottom: 25px;
+    margin: 0 auto;
+    display: flex;
+    margin-top: 5%;
+    i {
+      width: 20%;
+      text-align: center;
+    }
+  }
+}

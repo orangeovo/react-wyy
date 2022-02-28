@@ -1,0 +1,22 @@
+.swiper-pagination {
+  position: absolute;
+  bottom: 6px;
+  right: 5px;
+}
+.swiper-pagination ul {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.swiper-pagination li {
+  list-style: none;
+  display: inline-block;
+  height: 7px;
+  width: 7px;
+  border-radius: 50%;
+  background-color: #ccc;
+  margin: 0 3px;
+}
+.swiper-pagination li.selected {
+  background-color: #ffffff;
+}

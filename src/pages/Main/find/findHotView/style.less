@@ -1,0 +1,49 @@
+.find-recommend-list {
+  width: 100%;
+  // height: 200px;
+  .hot-container {
+    height: 100%;
+    white-space: nowrap;
+    overflow-x: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px 4px 10px;
+    .recommend-item {
+      position: relative;
+      vertical-align: top;
+      display: inline-block;
+      width: 32%;
+      height: 100%;
+      margin-left: 1.5%;
+      //   background: skyblue;
+      border-radius: 5px;
+      .img {
+        width: 100%;
+        border-radius: 5px;
+      }
+      p {
+        white-space: pre-wrap;
+      }
+      .Playback-volume {
+        position: absolute;
+        height: 20px;
+        background-color: hsla(0, 0%, 44.3%, 0.4);
+        right: 3px;
+        top: 6px;
+        border-radius: 15px;
+        padding-left: 5px;
+        padding-right: 5px;
+        line-height: 19px;
+        color: white;
+        i {
+          color: white;
+          position: relative;
+          top: 1%;
+        }
+      }
+    }
+  }
+  .hot-container::-webkit-scrollbar {
+    display: none;
+  }
+}

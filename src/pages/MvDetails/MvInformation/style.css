@@ -1,0 +1,27 @@
+.mv-information {
+  width: 90%;
+  float: left;
+  height: 100px;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.mv-information span {
+  font-size: 15px;
+  font-weight: bold;
+}
+.mv-information .information-text {
+  width: 100%;
+  background-color: #aef39d;
+}
+.mv-information .information-text div {
+  padding-right: 15px;
+  float: left;
+  color: #8c939d;
+}
+.mv-information .mv-jieshao {
+  color: #8c939d;
+  -webkit-line-clamp: 2;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}

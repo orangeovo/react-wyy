@@ -1,0 +1,120 @@
+.home-bottom {
+  width: 90%;
+  float: left;
+  position: relative;
+  top: 150px;
+  margin-left: 5%;
+}
+.home-bottom p {
+  margin-bottom: 1px !important;
+}
+.home-bottom .diankuai {
+  width: 100%;
+  height: 70px;
+}
+.home-bottom .like-music {
+  width: 100%;
+  height: 60px;
+  border-radius: 16px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  display: flex;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+.home-bottom .like-music img {
+  width: 40px;
+  height: 40px;
+  margin-left: 15px;
+  border-radius: 10px;
+}
+.home-bottom .like-music div {
+  margin-left: 6%;
+}
+.home-bottom .like-music div i {
+  font-size: 13px;
+  color: skyblue;
+  font-weight: bold;
+}
+.home-bottom .gedan-count {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 15px;
+  color: grey;
+}
+.home-bottom .created-gedan {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 16px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  margin-top: 19px;
+}
+.home-bottom .created-gedan .top {
+  display: flex;
+}
+.home-bottom .created-gedan .top .count {
+  width: 88%;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.home-bottom .created-gedan .top i {
+  margin-right: 5px;
+  margin-top: 10px;
+  color: grey;
+}
+.home-bottom .created-gedan .top .jia {
+  font-size: 25px;
+  line-height: 13px;
+  color: grey;
+  margin-right: 5px;
+  margin-top: 10px;
+}
+.home-bottom .created-gedan .bottom .chuangjian-gedan img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.home-bottom .created-gedan .bottom .chuangjian-gedan .zuoy {
+  display: flex;
+}
+.home-bottom .created-gedan .bottom .chuangjian-gedan .zuoy div {
+  margin-left: 7px;
+  margin-top: 11px;
+}
+.home-bottom .Collection-gedan {
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 10px;
+  border-radius: 16px;
+  border: 1px solid #d4d5d3;
+  box-shadow: 0 0 3px #d4d5d3;
+  margin-top: 19px;
+}
+.home-bottom .Collection-gedan .top {
+  display: flex;
+}
+.home-bottom .Collection-gedan .top .count {
+  margin-left: 10px;
+}
+.home-bottom .Collection-gedan .top i {
+  position: absolute;
+  right: 10px;
+  color: grey;
+}
+.home-bottom .Collection-gedan .bottom .chuangjian-gedan img {
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.home-bottom .Collection-gedan .bottom .chuangjian-gedan .zuoy {
+  display: flex;
+}
+.home-bottom .Collection-gedan .bottom .chuangjian-gedan .zuoy div {
+  margin-left: 7px;
+  margin-top: 11px;
+}

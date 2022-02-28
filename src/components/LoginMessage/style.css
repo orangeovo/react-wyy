@@ -1,0 +1,165 @@
+.login-message {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0px;
+  bottom: 0px;
+  z-index: 6;
+}
+.login-message .left {
+  width: 70%;
+  height: 100%;
+  background-color: #f6f6f6;
+  float: left;
+  overflow: scroll;
+  padding-bottom: 20px;
+}
+.login-message .left .vip {
+  width: 90%;
+  height: 10%;
+  background-color: #a7a7a7;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 10px;
+  color: white;
+  position: relative;
+}
+.login-message .left .vip h1 {
+  font-size: 17px;
+  margin-left: 10px;
+  line-height: 35px;
+}
+.login-message .left .vip p {
+  margin-left: 10px;
+  position: absolute;
+  bottom: 10%;
+}
+.login-message .left .xinxi {
+  width: 90%;
+  height: 13%;
+  background-color: white;
+  margin: 0 auto;
+  margin-top: 15px;
+  border-radius: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.login-message .left .xinxi ul {
+  height: 100%;
+}
+.login-message .left .xinxi ul li {
+  margin-left: 10px;
+  width: 30%;
+  height: 30%;
+  margin-top: 2px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.login-message .left .fuwu {
+  width: 90%;
+  height: 21%;
+  background-color: #ffffff;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.login-message .left .fuwu p {
+  font-size: 13px;
+  color: grey;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.login-message .left .fuwu ul {
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.login-message .left .fuwu ul li {
+  height: 22%;
+  margin-top: 1%;
+  font-size: 14px;
+  line-height: 30px;
+}
+.login-message .left .qita {
+  width: 90%;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 15px;
+  margin-top: 10px;
+  height: 44%;
+}
+.login-message .left .qita p {
+  font-size: 13px;
+  color: grey;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.login-message .left .qita ul {
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.login-message .left .qita ul li {
+  height: 13%;
+  margin-top: 1%;
+  font-size: 14px;
+  line-height: 30px;
+}
+.login-message .left .dingdan {
+  width: 90%;
+  height: 25%;
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+.login-message .left .dingdan p {
+  font-size: 13px;
+  color: grey;
+  line-height: 30px;
+  margin-left: 10px;
+}
+.login-message .left .dingdan ul {
+  height: 70%;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.login-message .left .dingdan ul li {
+  height: 18%;
+  margin-top: 1%;
+  font-size: 14px;
+  line-height: 30px;
+}
+.login-message .left .tuichulogin {
+  width: 90%;
+  height: 6%;
+  background-color: white;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 10px;
+  color: red;
+  text-align: center;
+  line-height: 45px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.login-message .right {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+}
+.login-message .message-tanchuang {
+  width: 140px;
+  height: 50px;
+  background-color: #ffffff;
+  position: absolute;
+  margin-top: 100%;
+  margin-left: 40%;
+  text-align: center;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 20px;
+  border: 1px solid #ff8d8d;
+}

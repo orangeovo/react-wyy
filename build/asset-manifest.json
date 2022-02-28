@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "./static/css/main.a9e57316.css",
+    "main.js": "./static/js/main.489ef486.js",
+    "static/media/bg.png": "./static/media/bg.78c19729fe184f12b370.png",
+    "static/media/background.png": "./static/media/background.63a2959251d6c3370465.png",
+    "static/media/cd.jpg": "./static/media/cd.3347e959b0e0ce164947.jpg",
+    "static/media/login_background.jpg": "./static/media/login_background.f20ea07251f26517279d.jpg",
+    "static/media/like_music.jpg": "./static/media/like_music.bbf921c56d61e975c80c.jpg",
+    "static/media/iconfont.ttf?t=1644545113703": "./static/media/iconfont.c98be0aa2178455a7d80.ttf",
+    "static/media/icomoon.svg?6394vp": "./static/media/icomoon.bc1fc38785af63f2c481.svg",
+    "static/media/iconfont.woff?t=1644545113703": "./static/media/iconfont.0cd63f95564700ddcbf0.woff",
+    "static/media/iconfont.svg?t=1538475568704": "./static/media/iconfont.dafb209522d21e5d3683.svg",
+    "static/media/iconfont.woff2?t=1644545113703": "./static/media/iconfont.8d90656ae12d088ad9cb.woff2",
+    "static/media/icomoon.eot?6394vp": "./static/media/icomoon.d01697a1567af20e0d8f.eot",
+    "static/media/icomoon.woff?6394vp": "./static/media/icomoon.f75ed5e4fcecfe71fb77.woff",
+    "static/media/icomoon.ttf?6394vp": "./static/media/icomoon.54be2e4b799b715527c8.ttf",
+    "static/media/iconfont.eot?t=1538475568704": "./static/media/iconfont.b6c3a76c38f9c66fcabb.eot",
+    "static/media/iconfont.ttf?t=1538475568704": "./static/media/iconfont.69e406b02dc707c307b5.ttf",
+    "static/media/iconfont.ttf?t=1641541005332": "./static/media/iconfont.ce8402d9cc266ce137c6.ttf",
+    "static/media/iconfont.woff?t=1641541005332": "./static/media/iconfont.60252fa09c4633e3622e.woff",
+    "static/media/iconfont.woff2?t=1641541005332": "./static/media/iconfont.ae4e14ee9a727f739cb9.woff2",
+    "index.html": "./index.html",
+    "main.a9e57316.css.map": "./static/css/main.a9e57316.css.map",
+    "main.489ef486.js.map": "./static/js/main.489ef486.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9e57316.css",
+    "static/js/main.489ef486.js"
+  ]
+}
