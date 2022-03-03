@@ -1,1 +1,3 @@
-# react-wyy
+# npm i 
+
+# npm run start
